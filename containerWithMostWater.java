@@ -30,7 +30,7 @@ class Solution {
             
             if(height[l]<height[r])
             {
-                l++;
+                l++;   // this maneuver is to find the largest height for the two containers
             }
             else r--;
         }
