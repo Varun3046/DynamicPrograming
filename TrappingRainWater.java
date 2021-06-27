@@ -44,7 +44,7 @@ class Solution {
     int left_max = 0, right_max = 0;
     while (left < right) {
         if (height[left] < height[right]) {
-            height[left] >= left_max ? (left_max = height[left]) : ans += (left_max - height[left]);
+            height[left] >= left_max ? (left_max = height[left]) : ans += (left_max - height[left]); // watwr is only stored when height is smaller than left max
             ++left;
         }
         else {
